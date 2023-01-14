@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(95, 191, 223);
+    }
+.con{
+    margin-left: 40%;
+    margin-top: 10%;
+}
+p{
+    text-align: center;
+    max-width: 300px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+u{
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+    margin-left: 80px;
+}
+.box{
+    max-width: 300px;
+    background-color: whitesmoke
+}
+button{
+    margin-left: 80px;
+}
+h3,h4{
+    margin-left: 95px;
+}
+h4{
+    color: rgb(60, 60, 218);
+}
+</style>
+<body>
+   <div class="con">
+    <div><h2><u>Our Reviews</u></h2></div>
+    <div class="box">
+        <img id="image" src=" https://render.fineartamerica.com/images/rendered/default/flat/round-beach-towel/images/artworkimages/medium/1/elon-musk-greg-joens.jpg?&targetx=0&targety=-98&imagewidth=787&imageheight=985&modelwidth=788&modelheight=788&backgroundcolor=F8F8F8&orientation=0"alt="">
+        <h3 id="name">Elon Musk</h3>
+        <h4 id="role">UX Designer</h4>
+        <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolor necessitatibus optio at architecto? Quae non fugit adipisci consectetur tenetur consequatur. Perferendis quo dolore, nesciunt autem, quam veniam perspiciatis necessitatibus porro suscipit magnam distinctio quaerat aliquid harum! Sequi quos dignissimos esse aliquid tenetur, dolore modi aspernatur, in tempora reprehenderit corrupti.</p>
+        <div>
+            <button id="prev" onclick="prev()">Prev</button>
+            <button id="next" onclick="next()">Next</button>
+        </div>
+        <div><button id="suprise" style="margin-top:10px;margin-left:115px">Suprise</button></div>
+    </div>
+   </div>
+   <script src="review slide.js"></script>
+</body>
+</html>
