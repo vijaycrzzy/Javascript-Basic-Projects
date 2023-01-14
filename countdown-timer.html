@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown timer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        font-family: 'Poppins', sans-serif;
+        background-image: url(https://images.unsplash.com/photo-1491002052546-bf38f186af56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c25vd3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60);
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   }
+   h1{
+    text-align: center;
+   }
+   .con1{
+     display: flex;
+   }
+   .days-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   }
+   .hours-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   }
+   .mins-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   }
+   .secs-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   }
+   p{
+    font-weight:600;
+   }
+   span{
+    font-weight: 600;
+    font-size: 40px;
+   }
+</style>
+<body>
+    <h1 id="h1">New Years Eve</h1>
+    <div class="con1">
+    <div class="days-con">
+        <p class="dayp">Days</p>
+        <span class="days">0</span>
+    </div>
+    
+    <div class="hours-con">
+        <p class="hoursp">Hours</p>
+        <span class="hours">0</span>
+    </div>
+
+    <div class="mins-con">
+        <p class="minsp">Minutes</p>
+        <span class="mins">0</span>
+    </div>
+
+    <div class="secs-con">
+        <p class="secsp">Seconds</p>
+        <span class="secs">0</span>
+    </div>
+
+    </div>
+    <script src="countdown-tim.js"></script>
+</body>
+</html>
