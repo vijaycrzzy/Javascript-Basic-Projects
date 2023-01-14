@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .con{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 20px 0px black;
+        width: 400px;
+        margin: auto;
+        margin-top: 15%;
+    }
+    .h{
+        padding: 20px;
+        font-weight: 500;
+    }
+    .op{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 6px;
+        font-size: 15px;
+    }
+    .btn{
+        background-color: rgb(48, 48, 246);
+        color: white;
+        width: 100%;
+        border: none;
+        text-align: center;
+        font-weight: 300;
+        font-size: 15px;
+        margin-top: 20px;
+         padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .btn:hover{
+        background-color: rgb(8, 8, 244);
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="con">
+        <div class="quizc" id="quizcon">
+     <div class="h" id="h">Question text</div>
+      <div class="op">
+      <div><input type="radio" id="a" name="1"><label id="atext"> op1</label></div>
+      <div><input type="radio" id="b" name="1"><label id="btext"> op2</label></div>
+      <div><input type="radio" id="c" name="1"><label id="ctext"> op3</label></div>
+      <div><input type="radio" id="d" name="1"><label id="dtext"> op4</label></div>
+      <h2 id="h2"></h2>
+    </div>
+      <button id="button" class="btn">Submit</button>
+    </div>
+</div>
+    <script src="Quizapp.js"></script>
+</body>
+</html>
