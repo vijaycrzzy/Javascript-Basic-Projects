@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  body{
+    margin:0px;
+    padding: 0px;
+  }
+  a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+    .menu{
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        padding: 10px;
+    }
+    .con{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        align-items: center;
+    }
+    .head{
+        margin-top: 15%;
+        background-color: black;
+        padding: 10px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+    }
+    button{
+        background-color: white;
+        color:black;
+        padding: 8px;
+        border-radius: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: medium;
+        font-weight: 600;
+    }
+    .p{
+        color: rgb(16, 187, 245);;
+    }
+    button:active{
+        background-color: black;
+        color: white;
+    }
+</style>
+<body>
+    <div>
+        <div class="menu">
+            <div><a href="color.html" class="p">Color Flipper</a></div>
+            <div><a style="color:black;" href="simplehex.html">Simple Hex</a></div>
+        </div>
+        <div class="con" id="contain">
+            <h1 class="head">Background Color:<span style="margin:10px ;" class="colors"> #000000</span></h1>
+            <button id="button">CLICK ME</button>
+        </div>
+    </div>
+    <script src="hex.js"></script>
+</body>
+</html>
