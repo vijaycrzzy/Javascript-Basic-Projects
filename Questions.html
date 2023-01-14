@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<style>
+    body{
+        background-color: rgb(186, 234, 250);
+    }
+    .con{
+        margin-left: 40%;
+        margin-top: 9%;
+        max-width: 300px;
+    }
+   h2 {
+       color: rgb(72, 111, 229)
+    }
+    .sub{
+        display: flex;
+       
+    }
+    .sub1{
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+    }
+   button{
+    margin-top: 10px;
+    cursor: pointer;
+   }
+   hr{
+    color: black;
+   }
+   u{
+    width: 30px;
+   }
+   .main{
+    background-color: white;
+   }
+</style>
+<body>
+    <div class="con">
+        <div><h2>General Questions</h2></div>
+        <div class="main">
+        <div class="sub">
+            <p>Do you accept all major credit cards?</p>
+            <div class="sub1">
+            <button class="qbn" onclick="p1()" id="bt1"><span><i class="fa fa-plus" aria-hidden="true" id="r"></i></span></button>
+            <button onclick="p1r()" id="bt11"><span><i class="fa fa-minus" aria-hidden="true"></i></span></button>
+        </div>
+        </div>
+        <p class="p" id="p1"></p>
+    </div>
+    <div class="main">
+        <div class="sub">
+            <p>Do you support your local farmers?</p>
+            <div class="sub1">
+            <button class="qbn" onclick="p2()"><span><i class="fa fa-plus" aria-hidden="true"></i></span></button>
+            <button onclick="p2r()"><span><i class="fa fa-minus" aria-hidden="true"></i></span></button>
+        </div>
+        </div>
+        <p class="p" id="p2"></p>
+        </div>
+        <div class="main">
+        <div class="sub">
+            <p>Do you use organic ingredients?</p>
+            <div class="sub1">
+            <button class="qbn" onclick="p3()"><span><i class="fa fa-plus" aria-hidden="true"></i></span></button>
+            <button onclick="p3r()"><span><i class="fa fa-minus" aria-hidden="true"></i></span></button>
+        </div>
+        </div>
+        <p class="p" id="p3"></p>
+    </div>
+    </div>
+    <script src="Questions.js"></script>
+</body>
+</html>
